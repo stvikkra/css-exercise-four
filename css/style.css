@@ -1,4 +1,125 @@
 body {
-  background-color: #dadada;
   font-size: 10px;
+}
+
+h1 {
+  font-family: serif;
+  font-size: 2em;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+div {
+  width: 100%
+}
+
+@media screen and (min-width: 575px){
+   div {
+    margin: 1%;
+    width: 48%;
+  }
+}
+
+/*cannot for the life of me get the header text to center*/
+
+.head-text{
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+.container {
+  background-color: #dadada;
+  box-sizing: border-box;
+  position: relative;
+  margin: 0 auto;
+  width: 50%;
+}
+
+/*cannot for the life of me get the header text to center*/
+
+.header {
+  box-sizing: border-box;
+  text-align: center;
+  padding: 10%;
+  width: 100%
+  margin: 0 auto;
+  display: block;
+
+
+}
+
+.preview-baku {
+  box-sizing: border-box;
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  display: inline-block;
+  padding-bottom: 5%;
+
+}
+
+.baku-text {
+  box-sizing: border-box;
+  position: absolute;
+  margin: 0 auto;
+  display: block;
+  top: 15%;
+  left: 5%;
+}
+
+.preview-london {
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  display: inline-block;
+  margin: 0 auto;
+  padding-bottom: 5%;
+
+}
+
+.london-text {
+  box-sizing: border-box;
+  position: absolute;
+  display: block;
+  top: 15%;
+  left: 5%;
+}
+
+.preview-madrid {
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  display: inline-block;
+  margin: 0 auto;
+  padding-bottom: 5%;
+}
+
+.madrid-text {
+  box-sizing: border-box;
+  position: absolute;
+  display: block;
+  top: 15%;
+  left: 5%;
+}
+
+.preview-rome {
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  display: inline-block;
+  margin: 0 auto;
+  padding-bottom: 5%;
+}
+
+.rome-text {
+  box-sizing: border-box;
+  position: absolute;
+  display: block;
+  top: 15%;
+  left: 5%;
 }
