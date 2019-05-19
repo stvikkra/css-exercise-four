@@ -20,8 +20,6 @@ div {
   width: 100%;
 }
 
-
-
 .head-text{
   text-align: center;
   text-transform: uppercase;
@@ -36,9 +34,6 @@ div {
   margin: 0 auto;
   width: 50%;
 }
-
-
-
 
 .header {
   box-sizing: border-box;
@@ -61,12 +56,6 @@ div {
 
 }
 
-@media screen and (min-width: 991px), only screen and (min-width: 575px)  {
-   .preview-baku {
-    margin: 1%;
-    width: 40%;
-  }
-
 .baku-text {
   box-sizing: border-box;
   position: absolute;
@@ -85,13 +74,6 @@ div {
   padding-bottom: 5%;
 }
 
-@media screen and (min-width: 991px), only screen and (min-width: 575px)  {
-   .preview-london {
-    margin: 1%;
-    width: 40%;
-  }
-
-
 .london-text {
   box-sizing: border-box;
   position: absolute;
@@ -108,12 +90,6 @@ div {
   margin: 0 auto;
   padding-bottom: 5%;
 }
-
-@media screen and (min-width: 991px), only screen and (min-width: 575px)  {
-   .preview-madrid {
-    margin: 1%;
-    width: 40%;
-  }
 
 
 .madrid-text {
@@ -133,18 +109,103 @@ div {
   padding-bottom: 5%;
 }
 
-@@media screen and (min-width: 991px), only screen and (min-width: 575px)  {
-   .preview-rome {
-    margin: 1%;
-    width: 40%;
-  }
-
-
-
 .rome-text {
   box-sizing: border-box;
   position: absolute;
   display: block;
   top: 15%;
   left: 5%;
+}
+
+@media screen and (min-width: 991px), only screen and (min-width: 575px)  {
+
+    .preview-baku {
+      margin: 1%
+      width: 40%
+    }
+
+    .preview-baku {
+      box-sizing: border-box;
+      position: relative;
+      margin: 0 auto;
+      width: 100%;
+      display: inline-block;
+      padding-bottom: 5%;
+
+    }
+
+    .baku-text {
+      box-sizing: border-box;
+      position: absolute;
+      margin: 0 auto;
+      display: block;
+      top: 15%;
+      left: 5%;
+    }
+
+    .preview-london {
+      box-sizing: border-box;
+      position: relative;
+      width: 100%;
+      display: inline-block;
+      margin: 0 auto;
+      padding-bottom: 5%;
+    }
+
+   .preview-london {
+    margin: 1%;
+    width: 40%;
+  }
+
+  .london-text {
+    box-sizing: border-box;
+    position: absolute;
+    display: block;
+    top: 15%;
+    left: 5%;
+  }
+
+  .preview-madrid {
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    margin: 0 auto;
+    padding-bottom: 5%;
+  }
+
+  .preview-madrid {
+    margin: 1%;
+    width: 40%;
+  }
+
+  .madrid-text {
+    box-sizing: border-box;
+    position: absolute;
+    display: block;
+    top: 15%;
+    left: 5%;
+  }
+
+  .preview-rome {
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    margin: 0 auto;
+    padding-bottom: 5%;
+  }
+
+   .preview-rome {
+    margin: 1%;
+    width: 40%;
+  }
+
+  .rome-text {
+    box-sizing: border-box;
+    position: absolute;
+    display: block;
+    top: 15%;
+    left: 5%;
+  }
 }
