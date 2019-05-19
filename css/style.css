@@ -120,11 +120,6 @@ div {
 @media screen and (min-width: 991px), only screen and (min-width: 575px)  {
 
     .preview-baku {
-      margin: 1%
-      width: 40%
-    }
-
-    .preview-baku {
       box-sizing: border-box;
       position: relative;
       margin: 0 auto;
@@ -132,6 +127,11 @@ div {
       display: inline-block;
       padding-bottom: 5%;
 
+    }
+
+    .preview-baku {
+      margin: 1%
+      width: 40%
     }
 
     .baku-text {
