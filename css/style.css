@@ -1,3 +1,7 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 body {
   font-size: 10px;
 }
@@ -13,17 +17,10 @@ img {
 }
 
 div {
-  width: 100%
+  width: 100%;
 }
 
-@media screen and (min-width: 575px){
-   div {
-    margin: 1%;
-    width: 48%;
-  }
-}
 
-/*cannot for the life of me get the header text to center*/
 
 .head-text{
   text-align: center;
@@ -40,13 +37,14 @@ div {
   width: 50%;
 }
 
-/*cannot for the life of me get the header text to center*/
+
+
 
 .header {
   box-sizing: border-box;
   text-align: center;
   padding: 10%;
-  width: 100%
+  width: 100%;
   margin: 0 auto;
   display: block;
 
@@ -62,6 +60,12 @@ div {
   padding-bottom: 5%;
 
 }
+
+@media screen and (min-width: 991px), only screen and (min-width: 575px)  {
+   .preview-baku {
+    margin: 1%;
+    width: 40%;
+  }
 
 .baku-text {
   box-sizing: border-box;
@@ -79,8 +83,14 @@ div {
   display: inline-block;
   margin: 0 auto;
   padding-bottom: 5%;
-
 }
+
+@media screen and (min-width: 991px), only screen and (min-width: 575px)  {
+   .preview-london {
+    margin: 1%;
+    width: 40%;
+  }
+
 
 .london-text {
   box-sizing: border-box;
@@ -99,6 +109,13 @@ div {
   padding-bottom: 5%;
 }
 
+@media screen and (min-width: 991px), only screen and (min-width: 575px)  {
+   .preview-madrid {
+    margin: 1%;
+    width: 40%;
+  }
+
+
 .madrid-text {
   box-sizing: border-box;
   position: absolute;
@@ -115,6 +132,14 @@ div {
   margin: 0 auto;
   padding-bottom: 5%;
 }
+
+@@media screen and (min-width: 991px), only screen and (min-width: 575px)  {
+   .preview-rome {
+    margin: 1%;
+    width: 40%;
+  }
+
+
 
 .rome-text {
   box-sizing: border-box;
