@@ -31,8 +31,6 @@ div {
   background-color: #dadada;
   box-sizing: border-box;
   position: relative;
-  margin: 0 auto;
-  width: 50%;
 }
 
 .header {
@@ -55,6 +53,7 @@ div {
 
 
 .preview-baku {
+  background-image: url("../images/baku.jpg");
   box-sizing: border-box;
   position: relative;
   margin: 0 auto;
