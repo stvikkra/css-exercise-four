@@ -42,8 +42,6 @@ div {
   width: 100%;
   margin: 0 auto;
   display: block;
-
-
 }
 
 .preview-baku {
@@ -117,109 +115,112 @@ div {
   left: 5%;
 }
 
-/*
-  ##Device = laptops/tablets
-*/
 
-@media screen and (min-width: 991px) {
+/* --------------- LAPTOP VIEW ------------------ */
+@media screen and (min-width: 992px) {
 
-    .preview-baku {
-      box-sizing: border-box;
-      position: relative;
-      margin: 0 auto;
-      width: 100%;
-      display: inline-block;
-      padding-bottom: 5%;
+  .container {
+    background-color: #dadada;
+    box-sizing: border-box;
+    position: relative;
+    margin: 0 auto;
+    width: 50%;
+  }
+   .preview-baku {
+     box-sizing: border-box;
+     position: relative;
+     margin: 0 auto;
+     width: 100%;
+     display: inline-block;
+     padding-bottom: 5%;
 
-    }
+   }
 
-    .preview-baku {
-      margin: 1%;
-      width: 40%;
-    }
+   .preview-baku {
+     margin: 0 auto;
+     width: 20%;
+     vertical-align: middle;
+   }
 
-    .baku-text {
-      box-sizing: border-box;
-      position: absolute;
-      margin: 0 auto;
-      display: block;
-      top: 15%;
-      left: 5%;
-    }
-
-    .preview-london {
-      box-sizing: border-box;
-      position: relative;
-      width: 100%;
-      display: inline-block;
-      margin: 0 auto;
-      padding-bottom: 5%;
-    }
+   .baku-text {
+     box-sizing: border-box;
+     position: absolute;
+     margin: 0 auto;
+     display: block;
+     font-size: 80%;
+   }
 
    .preview-london {
-    margin: 1%;
-    width: 40%;
-  }
+     box-sizing: border-box;
+     position: relative;
+     width: 100%;
+     display: inline-block;
+     margin: 0 auto;
+     padding-bottom: 5%;
+   }
 
-  .london-text {
-    box-sizing: border-box;
-    position: absolute;
-    display: block;
-    top: 15%;
-    left: 5%;
-  }
+   .preview-london {
+     margin: 0 auto;
+     width: 20%;
+     vertical-align: middle;
+   }
 
-  .preview-madrid {
-    box-sizing: border-box;
-    position: relative;
-    width: 100%;
-    display: inline-block;
-    margin: 0 auto;
-    padding-bottom: 5%;
-  }
+   .london-text {
+     box-sizing: border-box;
+     position: absolute;
+     display: block;
+     font-size: 80%;
 
-  .preview-madrid {
-    margin: 1%;
-    width: 40%;
-  }
+   }
 
-  .madrid-text {
-    box-sizing: border-box;
-    position: absolute;
-    display: block;
-    top: 15%;
-    left: 5%;
-  }
+   .preview-madrid {
+     box-sizing: border-box;
+     position: relative;
+     width: 100%;
+     display: inline-block;
+     margin: 0 auto;
+     padding-bottom: 5%;
+   }
 
-  .preview-rome {
-    box-sizing: border-box;
-    position: relative;
-    width: 100%;
-    display: inline-block;
-    margin: 0 auto;
-    padding-bottom: 5%;
-  }
+   .preview-madrid {
+     margin: 0 auto;
+     width: 20%;
+     vertical-align: middle;
+   }
+
+   .madrid-text {
+     box-sizing: border-box;
+     position: absolute;
+     display: block;
+     font-size: 80%;
+
+   }
 
    .preview-rome {
-    margin: 1%;
-    width: 40%;
-  }
+     box-sizing: border-box;
+     position: relative;
+     width: 100%;
+     display: inline-block;
+     margin: 0 auto;
+     padding-bottom: 5%;
+   }
 
-  .rome-text {
-    box-sizing: border-box;
-    position: absolute;
-    display: block;
-    top: 15%;
-    left: 5%;
-  }
+   .preview-rome {
+     margin: 0 auto;
+     width: 20%;
+     vertical-align: middle;
+   }
+
+   .rome-text {
+     box-sizing: border-box;
+     position: absolute;
+     display: block;
+     font-size: 80%;
+   }
 }
 
-/*
-  ##Device = mobile
-*/
-
-
-@media screen and (min-width: 575px) {
+/* --------------- TABLET VIEW ------------------ */
+@media (min-width: 575px) and (max-width: 991px) {
 
   .preview-baku {
     box-sizing: border-box;
@@ -241,8 +242,7 @@ div {
     position: absolute;
     margin: 0 auto;
     display: block;
-    top: 15%;
-    left: 5%;
+
   }
 
   .preview-london {
@@ -254,18 +254,16 @@ div {
     padding-bottom: 5%;
   }
 
- .preview-london {
-   margin: 1%;
-   width: 40%;
+  .preview-london {
+    margin: 1%;
+    width: 40%;
   }
 
   .london-text {
     box-sizing: border-box;
     position: absolute;
     display: block;
-    top: 15%;
-    left: 5%;
-  }
+   }
 
   .preview-madrid {
     box-sizing: border-box;
@@ -276,39 +274,34 @@ div {
     padding-bottom: 5%;
   }
 
-  .preview-madrid {
-    margin: 1%;
-    width: 40%;
-  }
-
-  .madrid-text {
-    box-sizing: border-box;
-    position: absolute;
-    display: block;
-    top: 15%;
-    left: 5%;
-  }
-
-  .preview-rome {
-    box-sizing: border-box;
-    position: relative;
-    width: 100%;
-    display: inline-block;
-    margin: 0 auto;
-    padding-bottom: 5%;
-  }
-
- .preview-rome {
+ .preview-madrid {
    margin: 1%;
    width: 40%;
   }
 
-.rome-text {
-  box-sizing: border-box;
-  position: absolute;
-  display: block;
-  top: 15%;
-  left: 5%;
-  }
+ .madrid-text {
+   box-sizing: border-box;
+   position: absolute;
+   display: block;
+ }
 
+ .preview-rome {
+   box-sizing: border-box;
+   position: relative;
+   width: 100%;
+   display: inline-block;
+   margin: 0 auto;
+   padding-bottom: 5%;
+ }
+
+  .preview-rome {
+   margin: 1%;
+   width: 40%;
+ }
+
+ .rome-text {
+   box-sizing: border-box;
+   position: absolute;
+   display: block;
+ }
 }
