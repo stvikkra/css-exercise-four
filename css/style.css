@@ -44,6 +44,16 @@ div {
   display: block;
 }
 
+.img-container{
+  width: 100%;
+  margin: 0 auto;
+  border-width: thick;
+  border-style: solid;
+  border-color: red;
+  vertical-align: middle;
+}
+
+
 .preview-baku {
   box-sizing: border-box;
   position: relative;
@@ -126,6 +136,14 @@ div {
     margin: 0 auto;
     width: 50%;
   }
+
+  .img-container{
+    width: 90%;
+    margin: 0 auto;
+    border-style: solid;
+    border-color: red;
+  }
+
    .preview-baku {
      box-sizing: border-box;
      position: relative;
@@ -139,7 +157,7 @@ div {
    .preview-baku {
      margin: 0 auto;
      width: 20%;
-     vertical-align: middle;
+
    }
 
    .baku-text {
@@ -162,7 +180,7 @@ div {
    .preview-london {
      margin: 0 auto;
      width: 20%;
-     vertical-align: middle;
+
    }
 
    .london-text {
@@ -185,7 +203,7 @@ div {
    .preview-madrid {
      margin: 0 auto;
      width: 20%;
-     vertical-align: middle;
+
    }
 
    .madrid-text {
@@ -208,7 +226,7 @@ div {
    .preview-rome {
      margin: 0 auto;
      width: 20%;
-     vertical-align: middle;
+
    }
 
    .rome-text {
@@ -221,6 +239,13 @@ div {
 
 /* --------------- TABLET VIEW ------------------ */
 @media (min-width: 575px) and (max-width: 991px) {
+
+  .img-container{
+    width: 90%;
+    margin: 0 auto;
+    border-style: solid;
+    border-color: red;
+  }
 
   .preview-baku {
     box-sizing: border-box;
